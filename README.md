@@ -30,7 +30,7 @@ Each run takes about 6 seconds, depending on how elliptical (or not) the selecte
    
    
 ![Barely non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Karacadag_10.png) \
-*Barely non-Vertical Grain Example Result*\
+*Barely non-Vertical Grain Example Result*
  
  
  
