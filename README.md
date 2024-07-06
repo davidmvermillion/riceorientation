@@ -33,7 +33,7 @@ Each run takes about 6 seconds, depending on how elliptical (or not) the selecte
 ![Terminal Run Example]() 
 
 ## Implications
-This shows how an image can be quickly assessed to find its outline and build properties from there. While this specific approach to determining rice grain orientation is impractical for production usage, but is an interesting proof-of-concept should it be expanded to examining thousands of grains in an aggregate in under a second. Additionally, it provides an interesting possible approach for my ongoing Crater Detection Algorithm to find symmetrical craters, provided the image can be appropriately sub-divided and probed.
+This shows how an image can be quickly assessed to find its outline and build properties from there. While this specific approach to determining rice grain orientation is impractical for production usage, but is an interesting proof-of-concept should it be expanded to examining thousands of grains in an aggregate in under a second. Additionally, it provides an interesting possible approach for my ongoing [Crater Detection Algorithm](https://github.com/davidmvermillion/MarsComputerVision) to find symmetrical craters, provided the image can be appropriately sub-divided and probed.
 
 ## Primary File Descriptions
 [Main Script]() \

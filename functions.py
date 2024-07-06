@@ -31,3 +31,18 @@ def rice_options():
         except:
             print('\nYour answer must be one of the following rice varietals:\nArborio\nBasmati\nIpsala\nJasmine\nKaracadag\n\n')
     return rice
+
+# File Finding Function
+# https://www.tutorialspoint.com/file-searching-using-python
+def find_files(filename, search_path):
+   result = []
+
+   # Walking top-down from the root
+   for root, dir, files in walk(search_path):
+      if filename in files:
+         result.append(path.join(root, filename))
+         result = str(result)
+         result = result.replace("'", "")
+         result = result.replace("[", "")
+         result = result.replace("]", "")
+   return str(result)

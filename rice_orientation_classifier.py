@@ -9,26 +9,11 @@ from math import degrees
 from math import pi
 from os import walk, path, chdir
 from os.path import abspath, dirname
-from functions import grain_orientation, number, rice_options
+from functions import grain_orientation, number, rice_options, find_files
 
 # Set directory to current script location
 # https://stackoverflow.com/a/69556612/13801562
 chdir(dirname(abspath(__file__)))
-
-# File Finding Function
-# https://www.tutorialspoint.com/file-searching-using-python
-def find_files(filename, search_path):
-   result = []
-
-   # Walking top-down from the root
-   for root, dir, files in walk(search_path):
-      if filename in files:
-         result.append(path.join(root, filename))
-         result = str(result)
-         result = result.replace("'", "")
-         result = result.replace("[", "")
-         result = result.replace("]", "")
-   return str(result)
 
 # User Input Intermediate values
 image_number = number()

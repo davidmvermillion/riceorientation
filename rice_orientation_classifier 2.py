@@ -7,7 +7,7 @@ from skimage.draw import ellipse_perimeter, line
 from skimage.io import imread
 from math import degrees
 from math import pi
-from os import walk, path, chdir
+from os import walk, path, chdir, getcwd
 from os.path import abspath, dirname
 
 # Set directory to current script location
@@ -59,6 +59,8 @@ image_number = number()
 rice_choice = rice_options()
 file = find_files('{} ({}).jpg'.format(rice_choice, image_number), 'Rice_Image_Dataset')
 print('\nThis should take between 1 and 10 seconds per query.\nPlease close any chart programs from this query to reset the script before running your next query.\n')
+print(file)
+print(getcwd())
 
 # Data Prep
 image_rgb = imread(str(file))
