@@ -21,11 +21,11 @@ Each run takes about 6 seconds, depending on how elliptical (or not) the selecte
 
 
 ![Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Basmati_1.png)\
-*Vertical Grain Example Result*\
+*Vertical Grain Example Result*
  
  
 ![Non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Jasmine_1.png) \
- *Non-Vertical Grain Example Result*\
+ *Non-Vertical Grain Example Result*
    
    
    
