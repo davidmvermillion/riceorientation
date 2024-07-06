@@ -12,7 +12,7 @@ The images used for this project come from [Kaggle](https://www.kaggle.com/datas
 4. Using `skimage.transform.hough_ellipse`, an elliptical approximation of the rice grain is calculated. \
     a. `skimage.draw.ellipse_perimeter` displays the ellipse on the original image. \
     b. The orientation of the ellipse is calculated from major and minor axes. \
-	    i. This orientation is piped through `grain_orientation` to determine whether or not it is vertical $\pm 30\degree$. \
+	      i. This orientation is piped through `grain_orientation` to determine whether or not it is vertical $\pm 30\degree$. \
 	c. A reference line is drawn on the image to aid understanding using `skimage.draw.line`. 
 5. The original image is displayed with the ellipse and reference line, along with a descriptive title of the grain orientation and whether or not it is vertical.
 
