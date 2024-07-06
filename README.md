@@ -20,17 +20,17 @@ The images used for this project come from [Kaggle](https://www.kaggle.com/datas
 Each run takes about 6 seconds, depending on how elliptical (or not) the selected rice grain is. This is impractical for production usage, but is an interesting proof-of-concept should it be expanded to examining thousands of grains in an aggregate in under a second.
 
 
-![Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Basmati_1.png)
-*Vertical Grain Example Result*
+![Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Basmati_1.png)\
+*Vertical Grain Example Result*\
  
  
-![Non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Jasmine_1.png) 
- *Non-Vertical Grain Example Result*
+![Non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Jasmine_1.png) \
+ *Non-Vertical Grain Example Result*\
    
    
    
 ![Barely non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Karacadag_10.png) \
-*Barely non-Vertical Grain Example Result*
+*Barely non-Vertical Grain Example Result*\
 ![Terminal Run Example](https://github.com/davidmvermillion/riceorientation/blob/working/Results/Terminal%20Sample.png) 
 *Terminal Run Example*
 
