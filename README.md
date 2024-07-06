@@ -13,23 +13,23 @@ The images used for this project come from [Kaggle](https://www.kaggle.com/datas
     a. `skimage.draw.ellipse_perimeter` displays the ellipse on the original image. \
     b. The orientation of the ellipse is calculated from major and minor axes. \
 		i. This orientation is piped through `grain_orientation` to determine whether or not it is vertical $\pm 30\degree$. \
-	c. A reference line is drawn on the image to aid understanding using `skimage.draw.line`. \
+	c. A reference line is drawn on the image to aid understanding using `skimage.draw.line`. 
 5. The original image is displayed with the ellipse and reference line, along with a descriptive title of the grain orientation and whether or not it is vertical.
 
 
 ## Results
 Each run takes about 6 seconds, depending on how elliptical (or not) the selected rice grain is. This is impractical for production usage, but is an interesting proof-of-concept should it be expanded to examining thousands of grains in an aggregate in under a second.
 
-![Vertical Grain Example]() \
-![Non-Vertical Grain Example]() \
-![Barely non-Vertical Grain Example]() \
-![Terminal Run Example]() \
+![Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Basmati_1.png) \
+![Non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Jasmine_1.png) \
+![Barely non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Karacadag_10.png) \
+![Terminal Run Example]() 
 
 ## Implications
 This shows how an image can be quickly assessed to find its outline and build properties from there. While this specific approach to determining rice grain orientation is impractical for production usage, but is an interesting proof-of-concept should it be expanded to examining thousands of grains in an aggregate in under a second. Additionally, it provides an interesting possible approach for my ongoing Crater Detection Algorithm to find symmetrical craters, provided the image can be appropriately sub-divided and probed.
 
-## File Descriptions
+## Primary File Descriptions
 [Main Script]() \
 [Function Script]() \
 [Grain Images]() \
-[Original Report]() \
+[Original Report](https://github.com/davidmvermillion/riceorientation/blob/main/Results/CSC510_Module8_Portfolio_Vermillion_David_Itr2.pdf) provides a more detailed examination of the methodology and results, as submitted for my portfolio project.
