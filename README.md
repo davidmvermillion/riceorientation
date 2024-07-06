@@ -30,13 +30,14 @@ Each run takes about 6 seconds, depending on how elliptical (or not) the selecte
    
    
 ![Barely non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Karacadag_10.png) \
-![Terminal Run Example]() 
+![Terminal Run Example](https://github.com/davidmvermillion/riceorientation/blob/working/Results/Terminal%20Sample.png) 
 
 ## Implications
 This shows how an image can be quickly assessed to find its outline and build properties from there. While this specific approach to determining rice grain orientation is impractical for production usage, but is an interesting proof-of-concept should it be expanded to examining thousands of grains in an aggregate in under a second. Additionally, it provides an interesting possible approach for my ongoing [Crater Detection Algorithm](https://github.com/davidmvermillion/MarsComputerVision) to find symmetrical craters, provided the image can be appropriately sub-divided and probed.
 
 ## Primary File Descriptions
-[Main Script]() \
-[Function Script]() \
-[Grain Images]() \
+[Main Script](https://github.com/davidmvermillion/riceorientation/blob/working/rice_orientation_classifier.py) is the primary file to run once you clone the repository to run yourself. \
+[Function Script](https://github.com/davidmvermillion/riceorientation/blob/working/functions.py) holds functions that aren't from pre-existing packages, but needed for this script. \
+[Grain Images](https://github.com/davidmvermillion/riceorientation/tree/working/Rice_Image_Dataset) each folder has 15,000 250x250 RGB images of rice grains on a plane, allowing for 2D calculations. The [citation request document](https://github.com/davidmvermillion/riceorientation/blob/working/Rice_Image_Dataset/Rice_Citation_Request.txt) is also held here. \
 [Original Report](https://github.com/davidmvermillion/riceorientation/blob/main/Results/CSC510_Module8_Portfolio_Vermillion_David_Itr2.pdf) provides a more detailed examination of the methodology and results, as submitted for my portfolio project.
+[Original Script](https://github.com/davidmvermillion/riceorientation/blob/working/rice_orientation_classifier_original_script.py) if you want to run it all as one as written in the aforementioned report.
