@@ -9,7 +9,7 @@ The images used for this project come from [Kaggle](https://www.kaggle.com/datas
 1. Using _Sci-Kit Image_, a full-color image of a well-separated rice grain is loaded, based on user input.
 2. The full-color image is converted to grayscale.
 3. Using `skimage.feature.canny`, the edges of the rice grain are outlined.
-4. Using `skimage.transform.hough_ellipse`, an elliptical approximation of the rice grain is calculated.
+4. Using `skimage.transform.hough_ellipse`, an elliptical approximation of the rice grain is calculated. \
     a. `skimage.draw.ellipse_perimeter` displays the ellipse on the original image. \
     b. The orientation of the ellipse is calculated from major and minor axes. \
 		i. This orientation is piped through `grain_orientation` to determine whether or not it is vertical $\pm 30\degree$. \
@@ -21,11 +21,11 @@ The images used for this project come from [Kaggle](https://www.kaggle.com/datas
 Each run takes about 6 seconds, depending on how elliptical (or not) the selected rice grain is. This is impractical for production usage, but is an interesting proof-of-concept should it be expanded to examining thousands of grains in an aggregate in under a second.
 
 
-![Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Basmati_1.png)\
+![Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Basmati_1.png)
  
  
  
-![Non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Jasmine_1.png) \
+![Non-Vertical Grain Example](https://github.com/davidmvermillion/riceorientation/blob/main/Results/Jasmine_1.png) 
  
    
    
