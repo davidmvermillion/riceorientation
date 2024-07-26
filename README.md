@@ -1,7 +1,9 @@
 # Rice Orientation
 
 ## Background
-Imagine that you handle a rice processing plant and you want to predict how efficiently rice will pass through various processing steps. Based on their size, orientation may not matter. For the sake of argument, let's assume that more grains oriented in the direction of travel implies that more grains will pass through the processing step in a given amount of time. This was the portfolio project I chose for my _Foundations of Artificial Intelligence_ course in my [master's program](https://csuglobal.edu/academic-programs/graduate-degrees/masters-science-degree-artificial-intelligence-machine-learning). As a proof-of-concept, this program focuses on individual rice grains, rather than rice as an aggregate. Watch this [video](https://youtu.be/bubHMERXhPw) for a visual walkthrough of the code.
+Imagine that you handle a rice processing plant and you want to predict how efficiently rice will pass through various processing steps. Based on their size, orientation may not matter. For the sake of argument, let's assume that more grains oriented in the direction of travel implies that more grains will pass through the processing step in a given amount of time. This was the portfolio project I chose for my _Foundations of Artificial Intelligence_ course in my [master's program](https://csuglobal.edu/academic-programs/graduate-degrees/masters-science-degree-artificial-intelligence-machine-learning). As a proof-of-concept, this program focuses on individual rice grains, rather than rice as an aggregate. Watch the video below by clicking the thumbnail for a visual walkthrough of the code. 
+
+[![YouTube Overview](http://img.youtube.com/vi/bubHMERXhPw/0.jpg)](https://youtu.be/bubHMERXhPw)
 
 ## Methodology
 The images used for this project come from [Kaggle](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset) and are very clean, mitigating many cleaning steps that would be required for live images. This script can be run on its own, provided you clone this repository to have access to all required files and load all required packages.
