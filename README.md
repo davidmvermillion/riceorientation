@@ -5,6 +5,12 @@ Imagine that you handle a rice processing plant and you want to predict how effi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bubHMERXhPw?si=kjIEW7TDvHHwmMfB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/bubHMERXhPw" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 ## Methodology
 The images used for this project come from [Kaggle](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset) and are very clean, mitigating many cleaning steps that would be required for live images. This script can be run on its own, provided you clone this repository to have access to all required files and load all required packages.
 
